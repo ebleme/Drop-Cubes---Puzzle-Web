@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7399649945499862703}
   m_Layer: 0
   m_Name: Colldier
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -134,12 +134,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3708167716655988933, guid: 51682a69934d0bd4cbbb8a850cc49ae4, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 5454017184699286987, guid: 51682a69934d0bd4cbbb8a850cc49ae4, type: 3}
+      propertyPath: itemType
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1614550050870794604, guid: 51682a69934d0bd4cbbb8a850cc49ae4, type: 3}
+    - {fileID: 2117414972640966472, guid: 51682a69934d0bd4cbbb8a850cc49ae4, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 2480626494628239200, guid: 51682a69934d0bd4cbbb8a850cc49ae4, type: 3}
-      insertIndex: -1
+      insertIndex: 0
       addedObject: {fileID: 1634631780067565002}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51682a69934d0bd4cbbb8a850cc49ae4, type: 3}

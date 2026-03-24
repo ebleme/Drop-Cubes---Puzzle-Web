@@ -68,27 +68,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4633718072283277627, guid: 51682a69934d0bd4cbbb8a850cc49ae4, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5454017184699286987, guid: 51682a69934d0bd4cbbb8a850cc49ae4, type: 3}
+      propertyPath: itemType
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1614550050870794604, guid: 51682a69934d0bd4cbbb8a850cc49ae4, type: 3}
+    - {fileID: 2117414972640966472, guid: 51682a69934d0bd4cbbb8a850cc49ae4, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 807555521226970242, guid: 51682a69934d0bd4cbbb8a850cc49ae4, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 3708167716655988933, guid: 51682a69934d0bd4cbbb8a850cc49ae4, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 6339171900263189138}
+      addedObject: {fileID: 5530339761361101659}
   m_SourcePrefab: {fileID: 100100000, guid: 51682a69934d0bd4cbbb8a850cc49ae4, type: 3}
---- !u!1 &1771894717723294664 stripped
+--- !u!1 &2365521512828514191 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 807555521226970242, guid: 51682a69934d0bd4cbbb8a850cc49ae4, type: 3}
+  m_CorrespondingSourceObject: {fileID: 3708167716655988933, guid: 51682a69934d0bd4cbbb8a850cc49ae4, type: 3}
   m_PrefabInstance: {fileID: 1414706067759837002}
   m_PrefabAsset: {fileID: 0}
---- !u!61 &6339171900263189138
+--- !u!61 &5530339761361101659
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1771894717723294664}
+  m_GameObject: {fileID: 2365521512828514191}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -119,10 +128,10 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.6, y: 1.6}
+    newSize: {x: 1.6, y: 1.6}
+    adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
