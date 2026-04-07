@@ -16,7 +16,8 @@ public class LineDrawer : MonoBehaviour
      * Başarısızı Durumları
      *  Farklı Item seçilirse veya mesafe uzaksa
      */
-
+    [SerializeField] private SoundManager soundManager;
+    
     [SerializeField] private int minItemCountToSuccess = 3;
     [SerializeField] private float maxDistance = 3;
 
@@ -137,13 +138,16 @@ public class LineDrawer : MonoBehaviour
         if (selectedItems.Count >= minItemCountToSuccess)
         {
             ScoreWrite();
-            Debug.Log("Başarılı");
+
+            soundManager.PlayItemDestroySFX();
+            
             foreach (var item in selectedItems)
             {
                 item.Kill();
             }
-
+            
             selectedItems.Clear();
+            
         }
         else
         {
