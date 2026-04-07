@@ -14,6 +14,7 @@ public class ItemSpawner : MonoBehaviour
 
     // Seçtiği pozisyon doluysa boş olan bir pozisyonda spawn etmesi gerekir.
 
+    [SerializeField] private int maxCountBeforeFail;
 
     [SerializeField] private float xMin = -9f;
     [SerializeField] private float xMax = 9f;

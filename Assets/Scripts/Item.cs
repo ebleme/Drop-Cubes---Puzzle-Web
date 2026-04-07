@@ -13,7 +13,7 @@ public class Item : MonoBehaviour
     public ItemTypes ItemType => itemType;
 
     bool touchSFXPlayed = false;
-    
+
     public void Select()
     {
         isSelected = true;
@@ -44,17 +44,15 @@ public class Item : MonoBehaviour
         {
             return;
         }
-        
+
         if (other.transform.CompareTag("Item") || other.transform.CompareTag("Floor"))
         {
             Debug.Log("Item a temas etti: " + other.transform.name);
-            
+
             touchSFXPlayed = true;
             // SoundManager'ı reference alma meselemiz var
-           var soundManager = FindAnyObjectByType<SoundManager>();
-           soundManager.PlayItemTouchSFX();
+            var soundManager = FindAnyObjectByType<SoundManager>();
+            soundManager.PlayItemTouchSFX();
         }
-        
-     
     }
 }
