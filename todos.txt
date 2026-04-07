@@ -1,0 +1,51 @@
+Item
+	- Farklı şekiller farklı renkler
+	- +Animasyonlar (Idle, Üzeri çizilirken, Patladığı an)
+	- Yok olması
+	- Çizilme mekaniği
+
+Spawn mekaniği
+	- +Rastgele pozisyonda (Yatay düzlemde)
+	- +Sabit zaman aralığıyla
+	- +Item listesinden rastgele bir tanesi
+
+Danger Zone
+	- Belirli bir tüzdesi dolarsa sarı oluyor
+	- Belirli bir yüzdesi dolaysa kırmızı oluyor geri sayım başlıyor.
+	- 10 sn içinde danger zone yüzdesi azalmaz ise fail
+	
+Skor mekaniği
+	- Patlatılan Item sayısına oranla skor verilecek
+	- 3 lü 3 puan
+	- 4 lüye 16 puan
+	- 5 liye 25 puan
+	- 6 lıya 36 puan
+	.....
+	
+Sesler
+	- Item yere düştüğünde birkez
+	- Item diğer Itemlara dokunduğunda bir kaç kere olabiliyor
+	- Patlama olduğunda ses Combolara göre değişken olabilir
+	- Arkaplan Müziği
+	- Danger zone kırmızı iken danger sesi
+	
+Çizgi çizme mekaniği
+	- Aynı Itemlar üzerinde gezilirken çizlir
+	- Farklı Item a gelince çizilmez
+	- Belirli bir mesafeden sonra çizilmez
+	- Çizilmişin üzerine bir kere daha gelince onu yok sayıyor
+	
+UI - Arayüz
+	- Main Menü
+	- Game UI (Pause Menü, Ses, Skor alanı)
+	
+VFX
+	- Patlama
+	- Item ilke düştüğünde vfx
+	- Combo VFX leri olabilir
+	
+Sahne tasarımı
+	- +Zemin
+	- Danger Zone
+	- +Spawn range
+	- +Left Right Wall
